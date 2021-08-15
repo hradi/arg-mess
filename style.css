@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  color: blanchedalmond;
+  background-color: rgb(39, 39, 39);
+}
+.hlavicka {
+  padding: 0% 0 0 20%;
+}
+section {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  padding: 0 0 5% 0%;
+}
+.nav div {
+  margin: 0 10px 0 0;
+}
+.nav-ii {
+  display: flex;
+  padding: 1% 0 5% 0;
+  margin-top: -3%;
+  border-top-style: solid;
+  border-top-color: rgb(141, 200, 202);
+  border-top-width: 1px;
+}
+.nav-ii div {
+  margin: 0 10px 0 0;
+}
+.nav-ii a {
+  background-color: rgb(141, 200, 202);
+}
+.nav-ii a:hover {
+  color: rgb(141, 200, 202);
+  background-color: rgb(43, 43, 43);
+}
+a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+  background-color: blanchedalmond;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+a:hover {
+  color: blanchedalmond;
+  background-color: rgb(43, 43, 43);
+}
+.datace {
+  margin: 0 110% -0% -40%;
+}
+.one {
+  padding: 10px 40% 10px 20%;
+}
+.paticka {
+  padding: 10px 20%;
+}
+.opening {
+  background-color: rgb(37, 37, 37);
+  color: blanchedalmond;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px 5%;
+  margin: 10px;
+  grid-column: 2 / span 3;
+  grid-row: 1 / span 2;
+}
+.ranting {
+  background-color: rgb(12, 24, 27);
+  display: grid;
+  grid-template-columns: repeat(3, 200px) repeat(2, 300px);
+  grid-template-rows: repeat(3, 400px);
+  gap: 0;
+  padding: 1% 7%;
+}
+.ranting div {
+    margin: 5px;
+}
+.nav-ver {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.ranting p {
+  font-size: 14px;
+}
+.ranting h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+.info-box {
+  color: blanchedalmond;
+  background-color: rgb(46, 46, 46);
+  grid-column: 6;
+  grid-row: 1 / span 3;
+  padding: 5%;
+}
+.prologue {
+  color: blanchedalmond;
+  grid-column: 2 / span 4;
+  grid-row: 3;
+  padding: 5%;
+}  
+.reference {
+    grid-column: 5;
+    grid-row: 1;
+    padding: 10px;
+}
