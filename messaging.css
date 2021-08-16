@@ -18,7 +18,7 @@ body {
   background-color: rgb(231, 223, 216);
   padding: 5px;
   border-radius: 5px;
-  background-image: url(pics/books-flow.jpg);
+  background-image: url(pics/lite-floor.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,20 +26,23 @@ body {
 .out {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  text-align: right;
+  text-align: left;
   padding: 5px 10px 5px 5px;
   border-radius: 5px 0 5px 5px;
   margin: 5px 5px 5px 30%;
-  background-color: rgba(255, 233, 218, 0.712);
+  background-color: rgba(255, 247, 241, 0.712);
   box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.185);
 }
 .inc {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   border-radius: 0 5px 5px 5px;
-  background-color: rgba(138, 130, 125, 0.747);
-  color: seashell;
+  background-color: rgba(119, 108, 108, 0.774);
+  color: whitesmoke;
   padding: 5px 0px 5px 10px;
   margin: 5px 30% 5px 5px;
   box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.185);
 }
+
+/** ausdhNQCHR**/
+/* 

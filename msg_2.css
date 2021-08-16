@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.hlavicka {
+    padding: 10px;
+    margin:0;
+    background-color:whitesmoke;
+}
